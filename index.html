@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+	<title>Luke's Calculator</title>
+	<link href="css/style.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="javascript/calculatorFunctions.js"></script>
+	
+</head>
+<body>
+
+	
+	<div class="layout">
+		<div class="calculator">
+
+			<p class="resultField" id="results">...</p>
+			<div class="currentCalculation">
+				<input type="text" id="current" value="0"/>
+			</div>
+			<div class="buttons">
+				<div class="row1">
+					<button class="leftBracketButton" onclick="keyPress('(')">(</button>
+					<button class="rightBracketButton" onclick="keyPress(')')">)</button>
+					<button class="cButton" onclick="keyPress('C')"><b>C</b></button>
+					<button class="ceButton" onclick="keyPress('CE')"><b>CE</b></button>
+				</div>
+				<div class="row2">
+					<button class="sevenButton" onclick="keyPress('7')">7</button>
+					<button class="eightButton" onclick="keyPress('8')">8</button>
+					<button class="nineButton" onclick="keyPress('9')">9</button>
+					<button class="divideButton" onclick="keyPress('/')">/</button>
+				</div>
+				<div class="row3">
+					<button class="fourButton" onclick="keyPress('4')">4</button>
+					<button class="fiveButton" onclick="keyPress('5')">5</button>
+					<button class="sixButton" onclick="keyPress('6')">6</button>
+					<button class="multiplyButton" onclick="keyPress('*')">X</button>
+				</div>
+				<div class="row4">
+					<button class="oneButton" onclick="keyPress('1')">1</button>
+					<button class="twoButton" onclick="keyPress('2')">2</button>
+					<button class="threeButton" onclick="keyPress('3')">3</button>
+					<button class="subtractButton" onclick="keyPress('-')">-</button>
+				</div>
+				<div class="row5">
+				<button class="zeroButton" onclick="keyPress('0')">0</button>
+				<button class="decimalButton" onclick="keyPress('.')">.</button>
+				<button class="equalsButton" onclick="keyPress('=')">=</button>
+				<button class="addButton" onclick="keyPress('+')">+</button>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>

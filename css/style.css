@@ -1,0 +1,55 @@
+
+body{
+	font-family: "Times New Roman", Times, serif;
+	margin: 0;
+	z-index: 5;
+	font-size: 12px;
+	position: relative;
+}
+
+.layout {
+	text-align: center;
+}
+
+.calculator {
+	width: 600px;
+	display: inline-block;
+	border-style: solid;
+	
+	max-width: 100%;
+}
+
+.calculator p {
+	font-size: 16px;
+	padding-right: 5px;
+}
+
+.buttons div {
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+
+.buttons button {
+	width: 24%;
+	height: 50px;
+	
+	
+}
+
+.resultField {
+	text-align: right;
+}
+
+.currentCalculation {
+	text-align: right;
+	border-style: solid;
+	border-width: 1px;
+
+}
+
+input {
+	width: 99.5%;
+}
+
+
+
